@@ -1,0 +1,26 @@
+{
+    "name": "codcaf/contact",
+    "description": "This will send email to admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "codcaf",
+            "email": "dev@codcaf.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Codcaf\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codcaf\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
