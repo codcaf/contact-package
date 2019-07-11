@@ -1,6 +1,6 @@
 <?php
 
-namespace Bitfumes\Contact;
+namespace Codcaf\Contact;
 
 use Illuminate\Support\ServiceProvider;
 
